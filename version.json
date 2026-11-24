@@ -1,14 +1,14 @@
 {
-  "version": "2.5.1",
+  "version": "2.5.2",
   "build_date": "2026-11-24",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.1 - Siêu mượt Zero-Lag & Fix tụt FPS",
+  "title": "Bản cập nhật v2.5.2 - Cơ chế 2 Jailbreak Native (Zero-WDA)",
   "changelog": [
-    "Khắc phục triệt để hiện tượng trễ hình (Zero-Lag Engine): Hiển thị đồng thì tức thì dưới 40ms",
-    "Khắc phục tụt FPS xuống 2 FPS: Tối ưu bộ đệm USB socket và cơ chế giám sát WDA",
-    "Tự động nạp cài đặt WDA gốc qua USB cho máy bị xóa app hoặc văng app",
-    "Hỗ trợ chuẩn iOS 16 Developer Mode và nhận diện thiết bị thông minh"
+    "Triển khai chính thức Cơ chế 2: Jailbreak Native (100% Zero-WDA, chạy trực tiếp daemon qua cổng 6000 siêu mượt)",
+    "Tự động nhận diện thiết bị Jailbreak (Dopamine/Rootless/RootHide) và tự nạp tweak .deb",
+    "Phím Home, gõ phím Keyboard và thao tác chạm Kernel Touch phản hồi tức thì qua socket trực tiếp",
+    "Giữ nguyên 100% cơ chế chuẩn WDA tiêu chuẩn cho các dòng máy chưa Jailbreak (Non-JB)"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.1/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.1/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.2/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.2/iOS_SyncMaster_Pro.zip"
 }
