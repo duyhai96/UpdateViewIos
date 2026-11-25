@@ -1,14 +1,14 @@
 {
-  "version": "2.5.2",
-  "build_date": "2026-11-24",
+  "version": "2.5.3",
+  "build_date": "2026-11-25",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.2 - Cơ chế 2 Jailbreak Native (Zero-WDA)",
+  "title": "Bản cập nhật v2.5.3 - Phím xóa Backspace & Khay nhớ tạm 2FA",
   "changelog": [
-    "Triển khai chính thức Cơ chế 2: Jailbreak Native (100% Zero-WDA, chạy trực tiếp daemon qua cổng 6000 siêu mượt)",
-    "Tự động nhận diện thiết bị Jailbreak (Dopamine/Rootless/RootHide) và tự nạp tweak .deb",
-    "Phím Home, gõ phím Keyboard và thao tác chạm Kernel Touch phản hồi tức thì qua socket trực tiếp",
-    "Giữ nguyên 100% cơ chế chuẩn WDA tiêu chuẩn cho các dòng máy chưa Jailbreak (Non-JB)"
+    "Hỗ trợ đầy đủ phím xóa Backspace/Delete cho cả cơ chế Jailbreak Native và Non-JB",
+    "Sửa lỗi đồng bộ khay nhớ tạm (Copy/Paste, mã 2FA TikTok) trên máy Jailbreak Rootless (Dopamine)",
+    "Khắc phục hiện tượng bấm phím Home chuyển qua ứng dụng Camera và sửa lỗi dán duplicate nội dung",
+    "Tối ưu độ ổn định và tự động kết nối lại socket JB Native cổng 6000"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.2/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.2/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.3/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.3/iOS_SyncMaster_Pro.zip"
 }
