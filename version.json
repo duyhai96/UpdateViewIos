@@ -1,14 +1,14 @@
 {
-  "version": "2.5.5",
+  "version": "2.5.6",
   "build_date": "2026-11-25",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.5 - Sửa triệt để gõ & dán mã OTP 6 số (TikTok)",
+  "title": "Bản cập nhật v2.5.6 - Chống đơ sau cài .deb & Đồng bộ phiên bản",
   "changelog": [
-    "Tự động nhận diện bàn phím số PhonePad/NumberPad trên màn hình và chạm trực tiếp phím 0-9 / Backspace khi gõ hoặc dán mã OTP",
-    "Khắc phục triệt để tình trạng dán mã OTP 6 số TikTok bị nhảy con trỏ nhưng trống ô trên JB Native",
-    "Chuẩn hóa lệnh xóa Backspace (244;;1) và cắt khoảng trắng thừa khi dán mã 1 dòng",
-    "Bao gồm đầy đủ các tính năng v2.5.4 (tự động nạp .deb qua SSH & hỏi/lưu mật khẩu SSH riêng)"
+    "Khắc phục tình trạng lag/đơ khi kết nối máy mới và cài đặt .deb lần đầu (tách kiểm tra socket khỏi luồng giao diện chính)",
+    "Tự động khởi tạo lại socket cảm ứng và độ phân giải màn hình ngay sau khi cài .deb và Respring hoàn tất",
+    "Đồng bộ chính xác số phiên bản hiển thị trên thanh tiêu đề, dashboard và thanh trạng thái",
+    "Bao gồm đầy đủ tính năng v2.5.5 (tự động gõ & dán mã OTP 6 số TikTok)"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.5/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.5/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.6/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.6/iOS_SyncMaster_Pro.zip"
 }
