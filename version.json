@@ -1,14 +1,14 @@
 {
-  "version": "2.5.4",
+  "version": "2.5.5",
   "build_date": "2026-11-25",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.4 - Tự động nạp Tweak & Mật khẩu SSH riêng",
+  "title": "Bản cập nhật v2.5.5 - Sửa triệt để gõ & dán mã OTP 6 số (TikTok)",
   "changelog": [
-    "Sửa lỗi tự động cài Tweak .deb qua SSH trên máy Jailbreak (chờ dpkg hoàn tất, hỗ trợ PATH Rootless & quyền root/sudo)",
-    "Tự động hỏi và lưu mật khẩu SSH riêng nếu máy khách đổi mật khẩu Dopamine, dùng chung cho cả dàn máy",
-    "Hiển thị chính xác trạng thái kết nối SSH/Tweak thay vì báo lặp yêu cầu cài OpenSSH",
-    "Bao gồm đầy đủ các sửa lỗi từ v2.5.3 (Backspace, Copy/Paste 2FA TikTok, phím Home)"
+    "Tự động nhận diện bàn phím số PhonePad/NumberPad trên màn hình và chạm trực tiếp phím 0-9 / Backspace khi gõ hoặc dán mã OTP",
+    "Khắc phục triệt để tình trạng dán mã OTP 6 số TikTok bị nhảy con trỏ nhưng trống ô trên JB Native",
+    "Chuẩn hóa lệnh xóa Backspace (244;;1) và cắt khoảng trắng thừa khi dán mã 1 dòng",
+    "Bao gồm đầy đủ các tính năng v2.5.4 (tự động nạp .deb qua SSH & hỏi/lưu mật khẩu SSH riêng)"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.4/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.4/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.5/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.5/iOS_SyncMaster_Pro.zip"
 }
