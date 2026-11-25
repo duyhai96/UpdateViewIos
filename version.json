@@ -1,14 +1,13 @@
 {
-  "version": "2.5.6",
+  "version": "2.5.7",
   "build_date": "2026-11-25",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.6 - Chống đơ sau cài .deb & Đồng bộ phiên bản",
+  "title": "Bản cập nhật v2.5.7 - Nhận diện bàn phím số OTP động cho mọi dòng iPhone",
   "changelog": [
-    "Khắc phục tình trạng lag/đơ khi kết nối máy mới và cài đặt .deb lần đầu (tách kiểm tra socket khỏi luồng giao diện chính)",
-    "Tự động khởi tạo lại socket cảm ứng và độ phân giải màn hình ngay sau khi cài .deb và Respring hoàn tất",
-    "Đồng bộ chính xác số phiên bản hiển thị trên thanh tiêu đề, dashboard và thanh trạng thái",
-    "Bao gồm đầy đủ tính năng v2.5.5 (tự động gõ & dán mã OTP 6 số TikTok)"
+    "Nâng cấp bộ nhận diện động bàn phím số PhonePad/NumberPad trên khung hình (hỗ trợ chuẩn cả iPhone tai thỏ X/11/12/13/14 và iPhone 6s/7/8/SE)",
+    "Khắc phục triệt để lỗi dán mã OTP 6 số bị trống ô trên máy khách sử dụng iPhone màn hình tỷ lệ khác nhau",
+    "Bao gồm toàn bộ bản vá v2.5.6 (chống đơ sau khi cài .deb lần đầu & đồng bộ phiên bản)"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.6/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.6/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.7/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.7/iOS_SyncMaster_Pro.zip"
 }
