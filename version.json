@@ -1,13 +1,13 @@
 {
-  "version": "2.5.7",
+  "version": "2.5.8",
   "build_date": "2026-11-25",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.7 - Nhận diện bàn phím số OTP động cho mọi dòng iPhone",
+  "title": "Bản cập nhật v2.5.8 - Sửa nhận diện máy TrollStore & Copy 2FA mới nhất",
   "changelog": [
-    "Nâng cấp bộ nhận diện động bàn phím số PhonePad/NumberPad trên khung hình (hỗ trợ chuẩn cả iPhone tai thỏ X/11/12/13/14 và iPhone 6s/7/8/SE)",
-    "Khắc phục triệt để lỗi dán mã OTP 6 số bị trống ô trên máy khách sử dụng iPhone màn hình tỷ lệ khác nhau",
-    "Bao gồm toàn bộ bản vá v2.5.6 (chống đơ sau khi cài .deb lần đầu & đồng bộ phiên bản)"
+    "Sửa lỗi nhận diện nhầm máy chưa Jailbreak có cài TrollStore/Filza thành máy đã Jailbreak (không còn báo đòi mở cổng SSH)",
+    "Sửa lỗi Copy 2FA TikTok bị trả về nội dung đã dán trước đó (luôn ưu tiên lấy nội dung mới nhất theo thời gian)",
+    "Bao gồm toàn bộ bản vá v2.5.7 (nhận diện động bàn phím số OTP cho mọi dòng iPhone)"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.7/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.7/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.8/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.8/iOS_SyncMaster_Pro.zip"
 }
