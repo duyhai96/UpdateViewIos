@@ -1,14 +1,14 @@
 {
-  "version": "2.5.3",
+  "version": "2.5.4",
   "build_date": "2026-11-25",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.3 - Phím xóa Backspace & Khay nhớ tạm 2FA",
+  "title": "Bản cập nhật v2.5.4 - Tự động nạp Tweak & Mật khẩu SSH riêng",
   "changelog": [
-    "Hỗ trợ đầy đủ phím xóa Backspace/Delete cho cả cơ chế Jailbreak Native và Non-JB",
-    "Sửa lỗi đồng bộ khay nhớ tạm (Copy/Paste, mã 2FA TikTok) trên máy Jailbreak Rootless (Dopamine)",
-    "Khắc phục hiện tượng bấm phím Home chuyển qua ứng dụng Camera và sửa lỗi dán duplicate nội dung",
-    "Tối ưu độ ổn định và tự động kết nối lại socket JB Native cổng 6000"
+    "Sửa lỗi tự động cài Tweak .deb qua SSH trên máy Jailbreak (chờ dpkg hoàn tất, hỗ trợ PATH Rootless & quyền root/sudo)",
+    "Tự động hỏi và lưu mật khẩu SSH riêng nếu máy khách đổi mật khẩu Dopamine, dùng chung cho cả dàn máy",
+    "Hiển thị chính xác trạng thái kết nối SSH/Tweak thay vì báo lặp yêu cầu cài OpenSSH",
+    "Bao gồm đầy đủ các sửa lỗi từ v2.5.3 (Backspace, Copy/Paste 2FA TikTok, phím Home)"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.3/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.3/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.4/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.4/iOS_SyncMaster_Pro.zip"
 }
