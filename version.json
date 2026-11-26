@@ -1,11 +1,12 @@
 {
-  "version": "2.5.11",
+  "version": "2.5.12",
   "build_date": "2026-11-26",
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.11/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.11/iOS_SyncMaster_Pro.zip",
+  "min_version": "2.0.0",
+  "title": "iOS SyncMaster Pro v2.5.12 - Sửa cài gói hỗ trợ JB & Chống cache cập nhật",
   "changelog": [
-    "Ẩn thông tin máy chủ cập nhật & tự động đánh dấu nút 'Có bản mới' khi phát hiện phiên bản mới.",
-    "Thêm menu chuột phải 'Cài đặt gói hỗ trợ (JB: Cảm ứng & Dán)' cho máy Jailbreak mới của khách.",
-    "Thêm đặt số hiệu máy cố định theo UDID, dán văn bản nhiều máy, sửa lặp phím (a -> aa) & tối ưu dán Unicode/Ả Rập."
-  ]
+    "**Sửa hộp thoại thông báo cài gói hỗ trợ JB**: Hiện rõ trạng thái thành công/thất bại từng gói (`com.zjx.ioscontrol`, `com.viewios.unicodepaste`, `pasteboard-utils`) và hỗ trợ cài trên cả Rootless lẫn RootHide.",
+    "**Chống trễ cache khi kiểm tra cập nhật**: Đối chiếu cả `version.json` lẫn Releases API để nhận bản mới tức thì."
+  ],
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.12/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.12/iOS_SyncMaster_Pro.zip"
 }
