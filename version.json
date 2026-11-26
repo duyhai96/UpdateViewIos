@@ -1,13 +1,14 @@
 {
-  "version": "2.5.14",
+  "version": "2.5.15",
   "build_date": "2026-11-26",
   "min_version": "2.0.0",
-  "title": "iOS SyncMaster Pro v2.5.14 - Gõ & Dán trên mọi ứng dụng iOS (Snapchat, Safari, Notes...)",
+  "title": "iOS SyncMaster Pro v2.5.15 - Gõ/Dán mọi app không cần Python3, Cài TrollStore & IPA",
   "changelog": [
-    "**Gõ & Dán hoạt động trên MỌI ứng dụng iOS (kể cả Snapchat, Safari, Notes, App Store...)**: Tách `ViewIOSHID.dylib` chạy thuần `CoreFoundation` + `IOKit` trong `backboardd` (tạo sự kiện phím phần cứng IOHID toàn hệ thống, kèm delay 1.5ms/ký tự chống rớt phím).",
-    "**Tự động nâng cấp Tweak trên iPhone máy khách**: Khi mở app `v2.5.14`, mọi iPhone Jailbreak cắm vào sẽ tự động nâng cấp tweak lên `v2.5.14` (~2 giây).",
-    "**Nhận diện nút Paste chính xác hơn**: Kiểm tra độ dày dọc của pill `Paste` để không bấm nhầm tiêu đề đậm."
+    "**Tự động nâng cấp Tweak kèm `viewios_notify` (`v2.5.15`)**: Không cần cài `python3` hay `notifyutil` trên iPhone máy khách; gõ và dán chạy mượt trên mọi app (kể cả Safari, Notes, Snapchat) ngay sau khi kết nối.",
+    "**Thêm chức năng Cài TrollStore (chọn từng máy)**: Hỗ trợ iOS 15.0 – 16.7 RC & 17.0 (chuột phải 1 máy hoặc chọn các máy rồi bấm `TrollStore`).",
+    "**Thêm chức năng Cài file IPA & Gửi file IPA qua QR**: Cài IPA trực tiếp qua USB cho các máy đang chọn hoặc tạo mã QR tải IPA về iPhone.",
+    "**Bỏ popup/vòng lặp tự cài WDA khi chứng chỉ hết hạn**: Báo trạng thái trực tiếp trên khung máy iPhone, không làm gián đoạn thao tác."
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.14/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.14/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.15/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.15/iOS_SyncMaster_Pro.zip"
 }
