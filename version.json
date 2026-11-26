@@ -1,12 +1,14 @@
 {
-  "version": "2.5.12",
+  "version": "2.5.13",
   "build_date": "2026-11-26",
   "min_version": "2.0.0",
-  "title": "iOS SyncMaster Pro v2.5.12 - Sửa cài gói hỗ trợ JB & Chống cache cập nhật",
+  "title": "iOS SyncMaster Pro v2.5.13 - Tự nâng cấp Tweak JB, Gõ phím siêu tốc & Mở khóa Home",
   "changelog": [
-    "**Sửa hộp thoại thông báo cài gói hỗ trợ JB**: Hiện rõ trạng thái thành công/thất bại từng gói (`com.zjx.ioscontrol`, `com.viewios.unicodepaste`, `pasteboard-utils`) và hỗ trợ cài trên cả Rootless lẫn RootHide.",
-    "**Chống trễ cache khi kiểm tra cập nhật**: Đối chiếu cả `version.json` lẫn Releases API để nhận bản mới tức thì."
+    "**Tự động nâng cấp Tweak trên iPhone khi mở app**: Máy khách chỉ cần cập nhật phần mềm PC lên `v2.5.13`, mọi iPhone Jailbreak cắm vào sẽ tự động nâng cấp `ViewIOSUnicodePaste` + `pasteboard-utils` 1 lần duy nhất (~2 giây).",
+    "**Gõ phím & Xóa siêu tốc (~5ms/ký tự), không dùng tọa độ**: Chạy qua `UIKeyboardImpl` (`insertText:` / `deleteBackward`) + giữ sẵn phiên SSH & Python3 loop (tự lưu thông tin SSH theo máy).",
+    "**Bật sáng & Mở khóa màn hình từ Home / chuột giữa**: Dùng `SBBacklightController` + `SBLockScreenManager` trong `SpringBoard`, không còn tự mở app Máy ảnh.",
+    "**Sửa hoàn chỉnh nút Cài đặt gói hỗ trợ JB**: Hiện đầy đủ log & hộp thoại báo kết quả, hỗ trợ `--force-architecture`."
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.12/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.12/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.13/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.13/iOS_SyncMaster_Pro.zip"
 }
