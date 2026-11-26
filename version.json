@@ -1,14 +1,13 @@
 {
-  "version": "2.5.13",
+  "version": "2.5.14",
   "build_date": "2026-11-26",
   "min_version": "2.0.0",
-  "title": "iOS SyncMaster Pro v2.5.13 - Tự nâng cấp Tweak JB, Gõ phím siêu tốc & Mở khóa Home",
+  "title": "iOS SyncMaster Pro v2.5.14 - Gõ & Dán trên mọi ứng dụng iOS (Snapchat, Safari, Notes...)",
   "changelog": [
-    "**Tự động nâng cấp Tweak trên iPhone khi mở app**: Máy khách chỉ cần cập nhật phần mềm PC lên `v2.5.13`, mọi iPhone Jailbreak cắm vào sẽ tự động nâng cấp `ViewIOSUnicodePaste` + `pasteboard-utils` 1 lần duy nhất (~2 giây).",
-    "**Gõ phím & Xóa siêu tốc (~5ms/ký tự), không dùng tọa độ**: Chạy qua `UIKeyboardImpl` (`insertText:` / `deleteBackward`) + giữ sẵn phiên SSH & Python3 loop (tự lưu thông tin SSH theo máy).",
-    "**Bật sáng & Mở khóa màn hình từ Home / chuột giữa**: Dùng `SBBacklightController` + `SBLockScreenManager` trong `SpringBoard`, không còn tự mở app Máy ảnh.",
-    "**Sửa hoàn chỉnh nút Cài đặt gói hỗ trợ JB**: Hiện đầy đủ log & hộp thoại báo kết quả, hỗ trợ `--force-architecture`."
+    "**Gõ & Dán hoạt động trên MỌI ứng dụng iOS (kể cả Snapchat, Safari, Notes, App Store...)**: Tách `ViewIOSHID.dylib` chạy thuần `CoreFoundation` + `IOKit` trong `backboardd` (tạo sự kiện phím phần cứng IOHID toàn hệ thống, kèm delay 1.5ms/ký tự chống rớt phím).",
+    "**Tự động nâng cấp Tweak trên iPhone máy khách**: Khi mở app `v2.5.14`, mọi iPhone Jailbreak cắm vào sẽ tự động nâng cấp tweak lên `v2.5.14` (~2 giây).",
+    "**Nhận diện nút Paste chính xác hơn**: Kiểm tra độ dày dọc của pill `Paste` để không bấm nhầm tiêu đề đậm."
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.13/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.13/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.14/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.14/iOS_SyncMaster_Pro.zip"
 }
