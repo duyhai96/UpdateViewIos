@@ -1,13 +1,11 @@
 {
-  "version": "2.5.8",
-  "build_date": "2026-11-25",
-  "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.8 - Sửa nhận diện máy TrollStore & Copy 2FA mới nhất",
+  "version": "2.5.11",
+  "build_date": "2026-11-26",
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.11/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.11/iOS_SyncMaster_Pro.zip",
   "changelog": [
-    "Sửa lỗi nhận diện nhầm máy chưa Jailbreak có cài TrollStore/Filza thành máy đã Jailbreak (không còn báo đòi mở cổng SSH)",
-    "Sửa lỗi Copy 2FA TikTok bị trả về nội dung đã dán trước đó (luôn ưu tiên lấy nội dung mới nhất theo thời gian)",
-    "Bao gồm toàn bộ bản vá v2.5.7 (nhận diện động bàn phím số OTP cho mọi dòng iPhone)"
-  ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.8/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.8/iOS_SyncMaster_Pro.zip"
+    "Ẩn thông tin máy chủ cập nhật & tự động đánh dấu nút 'Có bản mới' khi phát hiện phiên bản mới.",
+    "Thêm menu chuột phải 'Cài đặt gói hỗ trợ (JB: Cảm ứng & Dán)' cho máy Jailbreak mới của khách.",
+    "Thêm đặt số hiệu máy cố định theo UDID, dán văn bản nhiều máy, sửa lặp phím (a -> aa) & tối ưu dán Unicode/Ả Rập."
+  ]
 }
