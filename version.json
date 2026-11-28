@@ -1,14 +1,14 @@
 {
-  "version": "2.5.16",
+  "version": "2.5.17",
   "build_date": "2026-11-28",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.16 - Sửa gõ/Copy/Paste Rootless & Dán thông minh",
+  "title": "Bản cập nhật v2.5.17 - Tối ưu RAM/CPU khi cắm nhiều máy",
   "changelog": [
-    "Sửa lỗi gõ phím, Copy và Paste trên máy Jailbreak Rootless (hỗ trợ đầy đủ cả Rootless và RootHide)",
-    "Sửa lỗi Safari hiện 'Safari pasted from pbcopy' rồi văng app trên Rootless",
-    "Tối ưu dán thông minh: chuỗi ngắn gõ ổn định không nhảy chữ, link dài dán nhanh qua ViewIOSHID",
-    "Tự động cài & kích hoạt tweak (backboardd/SpringBoard) khi kết nối máy hoặc từ menu chuột phải"
+    "Giảm mạnh RAM và CPU khi cắm 6+ máy cùng lúc (backpressure chống tràn hàng đợi QImage)",
+    "Giải mã JPEG thu gọn trực tiếp trong libjpeg và tắt SmoothPixmapTransform cho tile nhỏ",
+    "Tự hạ FPS xuống 5 FPS khi màn hình iPhone tối/khóa để tiết kiệm tài nguyên",
+    "Giới hạn cập nhật nhãn FPS mỗi 0.5s giúp giao diện mượt và phản hồi chuột/phím tức thì"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.16/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.16/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.17/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.17/iOS_SyncMaster_Pro.zip"
 }
