@@ -1,13 +1,14 @@
 {
-  "version": "2.5.8",
-  "build_date": "2026-11-25",
+  "version": "2.5.16",
+  "build_date": "2026-11-28",
   "min_version": "2.0.0",
-  "title": "Bản cập nhật v2.5.8 - Sửa nhận diện máy TrollStore & Copy 2FA mới nhất",
+  "title": "Bản cập nhật v2.5.16 - Sửa gõ/Copy/Paste Rootless & Dán thông minh",
   "changelog": [
-    "Sửa lỗi nhận diện nhầm máy chưa Jailbreak có cài TrollStore/Filza thành máy đã Jailbreak (không còn báo đòi mở cổng SSH)",
-    "Sửa lỗi Copy 2FA TikTok bị trả về nội dung đã dán trước đó (luôn ưu tiên lấy nội dung mới nhất theo thời gian)",
-    "Bao gồm toàn bộ bản vá v2.5.7 (nhận diện động bàn phím số OTP cho mọi dòng iPhone)"
+    "Sửa lỗi gõ phím, Copy và Paste trên máy Jailbreak Rootless (hỗ trợ đầy đủ cả Rootless và RootHide)",
+    "Sửa lỗi Safari hiện 'Safari pasted from pbcopy' rồi văng app trên Rootless",
+    "Tối ưu dán thông minh: chuỗi ngắn gõ ổn định không nhảy chữ, link dài dán nhanh qua ViewIOSHID",
+    "Tự động cài & kích hoạt tweak (backboardd/SpringBoard) khi kết nối máy hoặc từ menu chuột phải"
   ],
-  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.8/patch_update.zip",
-  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.8/iOS_SyncMaster_Pro.zip"
+  "download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.16/patch_update.zip",
+  "full_download_url": "https://github.com/duyhai96/UpdateViewIos/releases/download/v2.5.16/iOS_SyncMaster_Pro.zip"
 }
